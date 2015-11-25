@@ -1,0 +1,193 @@
+html {
+	/*background-image: url('../img/bg.png');*/
+	background-color: white;
+}
+
+body {
+	background-color: white;
+	overflow-x: hidden;
+}
+
+ul.tabs{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+ul.tabs li{
+	background: none;
+	color: #222;
+	display: inline-block;
+	padding: 10px 15px;
+	cursor: pointer;
+}
+
+ul.tabs li.current{
+	background: #ededed;
+	color: #222;
+}
+
+.tab-content{
+	display: none;
+	background: #ededed;
+	padding: 15px;
+}
+
+.tab-content.current{
+	display: inherit;
+}
+
+#services {
+	text-align: center;
+	font-family: 'PT Serif', serif;
+}
+
+.navbar-brand {
+	font-family: 'PT Serif', serif;
+}
+
+a {
+	font-family: 'PT Serif', serif;
+}
+
+#map {
+	margin-left: 10%;
+	margin-top: 10%;
+}
+
+.page-header {
+	font-family: 'PT Serif', serif;
+	text-align: center;
+}
+
+.imgheader {
+	width: 100%;
+}
+
+.itemtitle {
+	font-size: 1.2em;
+	font-weight: bold;
+}
+
+.itemdescription {
+	font-style: italic; 
+}
+
+footer {
+	background-color: #ccc;
+	height: 250px;
+	width: 100%;
+	position: absolute;
+	left: 0;
+}
+
+footer p {
+	margin-top: 10%;
+	color: black;
+}
+
+.copyright {
+	padding: 3% 0 0 10%;
+}
+
+
+@media (max-width: 1200px) and (min-width: 993px) { 
+
+	html {
+		background-color: white;
+	}
+
+	body {
+		background-color: white;
+	}
+
+	.gallery {
+		padding: 0 0 0 15%;
+	}
+}
+
+@media (max-width: 992px) and (min-width: 767px) { 
+
+	html {
+		background-color: white;
+	}
+
+	body {
+		background-color: white;
+	}
+	
+	.gallery {
+		margin: 0 2% 0 2%;
+	}
+
+	.servicelist {
+		padding: 0 0 0 20%;
+	}
+}
+
+@media (max-width: 768px) and (min-width: 481px) { 
+
+	html {
+		background-color: white;
+	}
+
+	body {
+		background-color: white;
+	}
+
+	.gallery {
+		margin: 0 2% 0 2%;
+	}
+	
+	.servicelist {
+		padding: 0 0 0 20%;
+	}
+
+	.homeimg {
+		margin: 0 0 0 25%;
+	}
+
+	.imgheader {
+		width: 100%;
+	}
+
+	.infopanels {
+		padding-right: 0;
+	}
+}
+
+@media (max-width: 480px) and (min-width: 321px) { 
+	html {
+		background-color: white;
+	}
+
+	body {
+		background-color: white;
+	}
+
+	.gallery {
+		padding: 0 2% 0 5%;
+	}
+
+	.panel {
+		padding-right: 0;
+	}
+
+	.imgheader {
+		width: 400px;
+	}
+
+	.homeimgs {
+		padding: 0 0 5% 10%;
+	}
+}
+
+@media only screen and (max-width: 320px) { 
+	html {
+		background-color: white;
+	}
+
+	body {
+		background-color: white;
+	}
+
+}
