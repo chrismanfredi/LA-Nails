@@ -5,7 +5,6 @@ html {
 
 body {
 	background-color: white;
-	overflow-x: hidden;
 }
 
 ul.tabs{
@@ -47,11 +46,6 @@ ul.tabs li.current{
 
 a {
 	font-family: 'PT Serif', serif;
-}
-
-#map {
-	margin-left: 10%;
-	margin-top: 10%;
 }
 
 .page-header {
@@ -102,6 +96,11 @@ footer p {
 
 	.gallery {
 		padding: 0 0 0 15%;
+	}
+
+	#map {
+		margin-left: 10%;
+		margin-top: 10%;
 	}
 }
 
@@ -178,6 +177,10 @@ footer p {
 
 	.homeimgs {
 		padding: 0 0 5% 10%;
+	}
+
+	#map {
+		width: 100%;
 	}
 }
 
