@@ -53,17 +53,33 @@ a {
 	text-align: center;
 }
 
+.sectionheader {
+	font-family: 'PT Serif', serif;
+}
+
+a.sectionheader {
+	font-family: 'PT Serif', serif;
+}
+
+.sectioncontent {
+	font-family: 'PT Serif', serif;
+}
+
 .itemtitle {
 	font-size: 1.2em;
 	font-weight: bold;
+	font-family: 'PT Serif', serif;
 }
 
 .itemdescription {
 	font-style: italic; 
+	font-family: 'PT Serif', serif;
 }
 
+
+
 footer {
-	background-color: #2c3e50;
+	background-color: #e22b4b;
 	height: 250px;
 	width: 100%;
 	position: absolute;
@@ -88,10 +104,18 @@ footer p {
 	text-align: center;
 }
 
+.hours {
+	font-family: 'PT Serif', serif;
+}
+
 @media (max-width: 1438px) and (min-width: 1201px) { 
 
 	.hours {
 		margin-left: 30%;
+	}
+
+	.gallery {
+		margin-left: 20%;
 	}
 }
 
@@ -123,10 +147,6 @@ footer p {
 	body {
 		background-color: white;
 	}
-	
-	.gallery {
-		margin: 0 2% 0 2%;
-	}
 
 	.servicelist {
 		padding: 0 0 0 20%;
@@ -152,11 +172,6 @@ footer p {
 	body {
 		background-color: white;
 	}
-
-	.gallery {
-		margin: 0 2% 0 2%;
-	}
-
 	
 	.servicelist {
 		padding: 0 0 0 20%;
@@ -188,10 +203,6 @@ footer p {
 
 	body {
 		background-color: white;
-	}
-
-	.gallery {
-		padding: 0 2% 0 5%;
 	}
 
 	.panel {
