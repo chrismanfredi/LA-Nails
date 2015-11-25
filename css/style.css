@@ -197,6 +197,7 @@ footer p {
 }
 
 @media (max-width: 480px) and (min-width: 321px) { 
+	
 	html {
 		background-color: white;
 	}
@@ -223,6 +224,7 @@ footer p {
 }
 
 @media only screen and (max-width: 320px) { 
+	
 	html {
 		background-color: white;
 	}
